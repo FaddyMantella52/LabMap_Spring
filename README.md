@@ -29,3 +29,20 @@ Slot CLI The Slot CLI provides commands to manage slots. Here are the available 
   ```add bar <name> <capacity>```<br>
   ```add table <title> <type> <capacity> <providerID>```<br>
   		
+# Examples of CRUD Operation with Postman
+1. Create(Post)-Add a new Bar (example)
+   Request:
+      Method: Post
+      Endpoint:```/bar/add-bar```<br>
+2. Read(GET)-Retrieve Information about Slot (example)
+   Request:
+      Method: GET
+      Endpoint:```/slot/find-slot```<br>
+3. Update(PUT)-Modify Slot Information (example)
+   Request: 
+      Method: PUT
+      Endpoint: ```/slot/update-slot```<br>
+4. Delete (Delete)- Remove a provider (example)
+   Request:
+      Method: DELETE
+      Endpoint: ```/provider/delete-provider```<br>
