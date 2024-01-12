@@ -28,6 +28,15 @@ Slot CLI The Slot CLI provides commands to manage slots. Here are the available 
   ```add provider <title>```<br>
   ```add bar <name> <capacity>```<br>
   ```add table <title> <type> <capacity> <providerID>```<br>
++ find {entity} - Read an existing entity <br>
+   ```find{entity} <id> ``` <br>
++ update {entity} - Update an existing entity<br>
+  ```update slot <id> <name>``` <br>
+  ```update provider <id> <title> ``` <br>
+  ```update bar <id> <name> <capacity``` <br>
++ delete {entity} - Delete an existing entity <br>
+   ```delete {entity} <id>``` <br>
+  
   		
 # Examples of CRUD Operation with Postman
 1. Create(Post)-Add a new Bar (example) <br>
