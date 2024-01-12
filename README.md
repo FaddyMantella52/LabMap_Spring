@@ -46,3 +46,14 @@ Slot CLI The Slot CLI provides commands to manage slots. Here are the available 
    Request:<br>
       Method: DELETE <br>
       Endpoint: ```/provider/delete-provider```<br>
+   
+# Use Cases for MAPCasino Management Project with JPA:
+   1. Casino Resource Management: <br>
+      Use Case: The casino manager and administrators can efficiently manage and organize the casino's collection of slots, providers and game tables using the CRUD operations provided by the RESTful service.
+   2. Management of multiple Casinos: <br>
+      Use Case: Bigger companies, with multiple casinos, can use the system to store and keep track of slots and employees for each casino.
+   3. Bar Management: <br>
+      Use Case: The casino can have a bar, and with the help of the MAPCasino Project they can keep track of the products from the bar and the employees that work there.
+   4. Employee and Customer Management: <br>
+      Use Case: Casino administrators can keep track of employees and customers(salary, loyalty points etc.).
+      
